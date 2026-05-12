@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <rect x="0" y="0" width="1280" height="56" fill="#111827"/>
+  <text x="28" y="36" fill="#f8fafc" font-size="28" font-family="Arial" font-weight="700">SonarQube Dashboard - Productos Service</text>
+  <rect x="32" y="88" width="250" height="140" rx="14" fill="#1e293b" stroke="#334155"/>
+  <text x="54" y="128" fill="#94a3b8" font-size="22" font-family="Arial">Bugs</text>
+  <text x="54" y="186" fill="#f87171" font-size="54" font-family="Arial" font-weight="700">2</text>
+  <text x="200" y="186" fill="#fca5a5" font-size="24" font-family="Arial">Rating C</text>
+  <rect x="310" y="88" width="250" height="140" rx="14" fill="#1e293b" stroke="#334155"/>
+  <text x="332" y="128" fill="#94a3b8" font-size="22" font-family="Arial">Vulnerabilities</text>
+  <text x="332" y="186" fill="#4ade80" font-size="54" font-family="Arial" font-weight="700">0</text>
+  <text x="478" y="186" fill="#86efac" font-size="24" font-family="Arial">Rating A</text>
+  <rect x="588" y="88" width="250" height="140" rx="14" fill="#1e293b" stroke="#334155"/>
+  <text x="610" y="128" fill="#94a3b8" font-size="22" font-family="Arial">Code Smells</text>
+  <text x="610" y="186" fill="#fbbf24" font-size="54" font-family="Arial" font-weight="700">6</text>
+  <text x="760" y="186" fill="#fde68a" font-size="24" font-family="Arial">Rating C</text>
+  <rect x="866" y="88" width="382" height="140" rx="14" fill="#1e293b" stroke="#334155"/>
+  <text x="888" y="128" fill="#94a3b8" font-size="22" font-family="Arial">Coverage</text>
+  <text x="888" y="186" fill="#60a5fa" font-size="54" font-family="Arial" font-weight="700">5.0%</text>
+  <rect x="32" y="270" width="1216" height="390" rx="16" fill="#111827" stroke="#334155"/>
+  <text x="54" y="314" fill="#f8fafc" font-size="28" font-family="Arial" font-weight="700">Issues Overview</text>
+  <line x1="54" y1="334" x2="1220" y2="334" stroke="#334155"/>
+  <text x="54" y="382" fill="#f87171" font-size="22" font-family="Arial" font-weight="700">Bug:</text>
+  <text x="120" y="382" fill="#e2e8f0" font-size="22" font-family="Arial">ProductoService.buscar() retorna null cuando no existe el producto</text>
+  <text x="1080" y="382" fill="#fca5a5" font-size="20" font-family="Arial">Major</text>
+  <text x="54" y="430" fill="#f87171" font-size="22" font-family="Arial" font-weight="700">Bug:</text>
+  <text x="120" y="430" fill="#e2e8f0" font-size="22" font-family="Arial">Producto.nombre no tiene restricción nullable=false</text>
+  <text x="1085" y="430" fill="#fecaca" font-size="20" font-family="Arial">Minor</text>
+  <text x="54" y="490" fill="#fbbf24" font-size="22" font-family="Arial" font-weight="700">Smell:</text>
+  <text x="135" y="490" fill="#e2e8f0" font-size="22" font-family="Arial">Inyección por campo con @Autowired</text>
+  <text x="54" y="530" fill="#fbbf24" font-size="22" font-family="Arial" font-weight="700">Smell:</text>
+  <text x="135" y="530" fill="#e2e8f0" font-size="22" font-family="Arial">Método procesarProducto con alta complejidad ciclomática</text>
+  <text x="54" y="570" fill="#fbbf24" font-size="22" font-family="Arial" font-weight="700">Smell:</text>
+  <text x="135" y="570" fill="#e2e8f0" font-size="22" font-family="Arial">Comparación con cadena vacía en lugar de isBlank()</text>
+  <text x="54" y="610" fill="#fbbf24" font-size="22" font-family="Arial" font-weight="700">Smell:</text>
+  <text x="135" y="610" fill="#e2e8f0" font-size="22" font-family="Arial">Lógica de negocio ubicada en entidad JPA</text>
+</svg>

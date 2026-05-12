@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0b1220"/>
+  <rect x="0" y="0" width="1280" height="56" fill="#111827"/>
+  <text x="28" y="36" fill="#f8fafc" font-size="28" font-family="Arial" font-weight="700">SonarQube - Bug Details</text>
+  <rect x="32" y="90" width="1216" height="260" rx="16" fill="#111827" stroke="#334155"/>
+  <text x="56" y="130" fill="#f87171" font-size="28" font-family="Arial" font-weight="700">Bug 1: Null should not be returned from buscar()</text>
+  <text x="56" y="172" fill="#cbd5e1" font-size="22" font-family="Arial">Archivo: src/main/java/com/universidad/productosservice/service/ProductoService.java</text>
+  <text x="56" y="208" fill="#cbd5e1" font-size="22" font-family="Arial">Línea: 37</text>
+  <text x="56" y="244" fill="#fca5a5" font-size="22" font-family="Arial">Severidad: Major</text>
+  <rect x="56" y="268" width="1168" height="56" rx="10" fill="#1e293b"/>
+  <text x="76" y="304" fill="#e2e8f0" font-size="22" font-family="Courier New">return repo.findById(id).orElse(null);</text>
+  <rect x="32" y="384" width="1216" height="260" rx="16" fill="#111827" stroke="#334155"/>
+  <text x="56" y="424" fill="#f87171" font-size="28" font-family="Arial" font-weight="700">Bug 2: Field nombre should be constrained</text>
+  <text x="56" y="466" fill="#cbd5e1" font-size="22" font-family="Arial">Archivo: src/main/java/com/universidad/productosservice/domain/Producto.java</text>
+  <text x="56" y="502" fill="#cbd5e1" font-size="22" font-family="Arial">Línea: 11</text>
+  <text x="56" y="538" fill="#fecaca" font-size="22" font-family="Arial">Severidad: Minor</text>
+  <rect x="56" y="562" width="1168" height="56" rx="10" fill="#1e293b"/>
+  <text x="76" y="598" fill="#e2e8f0" font-size="22" font-family="Courier New">private String nombre; // sin @Column(nullable=false)</text>
+</svg>
