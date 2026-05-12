@@ -1,18 +1,18 @@
 # Productos Service — Análisis SonarQube
 
-**Autor:** Calderon  
+**Autor:** mauricio calderon  
 **Materia:** Patrones de Diseño de Software  
 **Unidad:** 10 — Métricas de Calidad y SonarQube  
 **Año:** 2026
 
----
+
 
 ## Descripción
 
 Proyecto Spring Boot con código **intencionalmente imperfecto** para análisis estático
 con SonarQube y reporte de cobertura con JaCoCo (Post-Contenido 1, Unidad 10).
 
----
+
 
 ## Pasos de ejecución
 
@@ -24,7 +24,7 @@ docker run -d \
   -p 9000:9000 \
   -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true \
   sonarqube:community
-```
+
 
 Esperar: `SonarQube is operational` con `docker logs -f sonarqube`  
 Abrir http://localhost:9000 — credenciales: `admin / admin`
@@ -51,7 +51,7 @@ mvn sonar:sonar -Dsonar.token=TU_TOKEN_AQUI
 
 http://localhost:9000/dashboard?id=com.universidad%3Aproductos-service
 
----
+
 
 ## Estado inicial del análisis
 
@@ -62,7 +62,7 @@ http://localhost:9000/dashboard?id=com.universidad%3Aproductos-service
 | Code Smells      | 6        | C      |
 | Cobertura        | 5.0%     | —      |
 
----
+
 
 ## Hallazgos principales identificados
 
@@ -92,18 +92,19 @@ http://localhost:9000/dashboard?id=com.universidad%3Aproductos-service
 - **Archivo:** `Producto.java`, línea 16  
 - **Descripción:** Método `getEstado()` viola el principio de responsabilidad única (SRP).
 
----
+
 
 ## Capturas del dashboard
 
 ![Dashboard SonarQube](docs/sonar-dashboard.png)
 ![Detalle Bugs](docs/sonar-bugs.png)
-
+![alt text](docs/sonar-dashboard.svg)
+![alt text](docs/sonar-dashboard.svg)
 ---
 
 ## Estructura del proyecto
 
-```
+
 calderon-post1-u10/
 ├── src/
 │   ├── main/java/com/universidad/productosservice/
@@ -120,4 +121,4 @@ calderon-post1-u10/
 ├── pom.xml
 ├── .gitignore
 └── README.md
-```
+
